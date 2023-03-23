@@ -27,19 +27,19 @@ def processar_resposta(resposta, nome):
 
 
 def start():
-    #Apresentar o chatbot
+    
     print('Olá, Bem vindo a Demostração de Linguagem do Hemisfério Direito')
 
-    #Pedir o nome
+    
     nome = input('Digite seu nome: ')
     
     while True:
 
-        #Oferecer um menu de opções
+        
         resposta = input(
             f'O que gostaria de saber hoje? {os.linesep}[1] - Oi como vai? {os.linesep}[2] - Quantas átomos há no universo? {os.linesep}[3] - E como acabar com o stress?{os.linesep}')
         
-        # Processar a resposta enviada
+        
         processar_resposta(resposta, nome)
 
 
